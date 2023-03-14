@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Brick
+  - CollectablesBlue
+  - CollectablesRed
+  - BrickFinal
+  - Finish2
+  - Finish3
+  - Dead
+  - DoorMovement
+  - DoorMovement2
+  - CollectablesGreen
+  - Enemy2
+  - Enemy1
+  - DoorMovement3
+  - NoReturnPoint
+  - Finish4
+  - Floor
+  - BlueCollectableParent2
+  - RedCollectableParent2
+  - GreenCollectableParent2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - Ground2
+  - Ground3
+  - Door
+  - AI
+  - ReturnDoor
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
