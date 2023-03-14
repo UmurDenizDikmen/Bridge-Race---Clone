@@ -7429,6 +7429,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floating Joystick
       objectReference: {fileID: 0}
+    - target: {fileID: 8170153791668043271, guid: 0d230cc8be529a542a08cb878ab14b18, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8170153791961219459, guid: 0d230cc8be529a542a08cb878ab14b18, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8170153792821263252, guid: 0d230cc8be529a542a08cb878ab14b18, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8170153792821263259, guid: 0d230cc8be529a542a08cb878ab14b18, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -17042,7 +17054,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68450bde177dd1144b5bd7a135ba7c29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 1043314402}
   rangeCollectable: 14.82
   rangeBrick: 0.3
   Counter: 0
@@ -31557,7 +31568,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de586c6d1578db444a9a7c3675e64cb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 5434390416685309215}
   rangeCollectable: 14.82
   rangeBrick: 0.3
   Counter: 0
