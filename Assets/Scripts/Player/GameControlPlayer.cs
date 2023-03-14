@@ -131,8 +131,6 @@ public class GameControlPlayer : MonoBehaviour
                     Enemy1.rotation = Quaternion.Euler(0, 0, 0);
                     Enemy2.gameObject.GetComponent<Animator>().enabled = false;
                     Enemy1.gameObject.GetComponent<Animator>().enabled = false;
-
-
                 }
                 break;
         }
@@ -206,9 +204,6 @@ public class GameControlPlayer : MonoBehaviour
         }
         CollectablesStack.Clear();
     }
-
-
-
     public void PlayAgain()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

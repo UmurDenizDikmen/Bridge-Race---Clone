@@ -6,11 +6,11 @@ public class SpawnControlRed : MonoBehaviour
 {
     public GameObject CollectablesRedObject;
     
-    void Start()
+    private void Start()
     {
         InvokeRepeating("RedSpawnController",0f,2f);
     } 
-    void RedSpawnController()
+    private void RedSpawnController()
     {
          if(transform.childCount < 1)
          {

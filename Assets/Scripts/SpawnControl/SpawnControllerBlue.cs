@@ -5,11 +5,11 @@ using UnityEngine;
 public class SpawnControllerBlue : MonoBehaviour
 {
     public GameObject CollectablesBlueObject;
-     void Start()
+    private void Start()
     {
         InvokeRepeating("BlueSpawnController",0f,2f);
     }
-    void BlueSpawnController()
+    private void BlueSpawnController()
     {
          if(transform.childCount < 1)
          {
@@ -19,5 +19,3 @@ public class SpawnControllerBlue : MonoBehaviour
     }
 
 }
- 
- 

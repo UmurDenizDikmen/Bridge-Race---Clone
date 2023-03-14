@@ -5,7 +5,7 @@ using UnityEngine;
 public class DoorPos3 : MonoBehaviour
 {
     public Vector3 DoorPosThird;
-    void Start()
+    private void Start()
     {
         DoorPosThird = transform.position;
     }

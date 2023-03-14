@@ -10,7 +10,7 @@ using System.Linq;
 public class EnemyMovement2 : MonoBehaviour
 {
     [Header("OtherSettings")]
-    public NavMeshAgent agent;
+    NavMeshAgent agent;
     Rigidbody rg;
     Animator anim;
     public float rangeCollectable;
@@ -52,15 +52,13 @@ public class EnemyMovement2 : MonoBehaviour
         anim.SetBool("isWalking",true);
         agent.SetDestination(CollectablesStack3[0].transform.position);
     }
-    void Start()
+    private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         rg = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
         instance = this;
         FirstPosition = StackPoint.transform.localPosition;
-        
-       
     }
     private void Update()
     {
@@ -206,18 +204,16 @@ public class EnemyMovement2 : MonoBehaviour
                 break;
         }
     }
-    void EnableAgentAgain()
+    private void EnableAgentAgain()
     {
         agent.enabled = true;
         rg.isKinematic = true;
         MoveEnemy();
-   }
-    void OnDrawGizmos()
+    }
+    private void OnDrawGizmos()
     {
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, rangeCollectable);
     }
 
 }
-
-
